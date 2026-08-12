@@ -337,7 +337,6 @@ HTML allows you to draw graphics on a web page using elements like `<canvas>` or
 - ** Media:** Refers to things like video and audio added to a web page.
 - ** Video (`<video>`):** Used to embed video files on a web page. (Supports controls like play, pause, and volume).
 - ** Audio (`<audio>`):** Used to embed sound or music files on a web page.
-- **Plug-ins:** External browser plugins (like Flash, Java) used for content that HTML couldn't natively display (mostly outdated now).
 - **HTML YouTube:** Methods to embed YouTube videos directly into a web page using an `<iframe>`
 
 
