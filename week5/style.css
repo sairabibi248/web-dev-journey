@@ -1,0 +1,98 @@
+body {
+  background:linear-gradient(135deg, #6366f1 0%, #a855f7 1005);
+  font-family: sans-serif;
+ 
+}
+
+.card123 h1,
+.card123 h2,
+.card123 h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 1400px;
+  margin: 120px;
+}
+
+.card123 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  width: 220px;
+  padding: 15px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  color: #1e293b;
+  text-align: center;
+  transition: transform 0.3s ease;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 220px;
+}
+
+.card123:hover {
+  transform: translateY(-10px);
+}
+
+.card123:nth-child(1) {
+  background-color: #f3f4f6;
+}
+
+.card123:nth-child(2) {
+  background-color: #eff6ff;
+  border: 2px solid #38bdf8;
+}
+
+.card123:nth-child(3) {
+  background-color: #fdf4ff;
+}
+
+.card123 h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card123 h2 {
+  font-size: 18px;
+}
+
+.card123 ul {
+  text-align: left;
+  padding-left: 37px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card123 ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.card123 h1 {
+  font-size: 24px;
+}
+
+button {
+  background-color: rgb(79, 41, 132);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: auto;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #8a5b94;
+}
